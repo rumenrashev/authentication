@@ -12,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserLoginServiceImpl implements UserLoginService, UserDetailsService {
+public class UserLoginServiceImpl implements UserLoginService {
 
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;

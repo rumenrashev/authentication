@@ -1,4 +1,6 @@
 package com.authentication.services;
 
-public interface UserLoginService {
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public interface UserLoginService extends UserDetailsService {
 }
