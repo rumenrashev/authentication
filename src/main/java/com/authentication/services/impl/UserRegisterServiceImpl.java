@@ -17,5 +17,4 @@ public class UserRegisterServiceImpl implements UserRegisterService {
         this.userRepository = userRepository;
         this.roleRepository = roleRepository;
     }
-
 }
